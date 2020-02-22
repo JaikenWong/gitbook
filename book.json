@@ -1,0 +1,92 @@
+{
+    "title": "Book Notes",
+    "author": "JaikenWong",
+    "description": "相关技术书籍的读书笔记",
+    "plugins": [
+        "-search",
+        "search-pro",
+        "back-to-top-button",
+        "expandable-chapters-small",
+        "insert-logo",
+        "code",
+        "todo",
+        "advanced-emoji",
+        "github",
+        "emphasize",
+        "splitter",
+        "-sharing",
+        "sharing-plus",
+        "tbfed-pagefooter",
+        "sectionx",
+        "klipse",
+        "alerts",
+        "pageview-count",
+        "popup",
+        "custom-favicon",
+        "plantuml",
+        "disqus",
+        "katex",
+        "graph",
+        "chart",
+        "mermaid-gb3",
+        "anchor-navigation-ex",
+        "terminal"
+    ],
+    "pluginsConfig": {
+        "insert-logo": {
+            "url": "images/logo.png",
+            "style": "background: none; max-height: 30px; min-height: 30px"
+        },
+        "code": {
+            "copyButtons": true
+        },
+        "github": {
+            "url": "https://github.com/JiakenWong"
+        },
+        "sharing": {
+            "douban": true,
+            "facebook": false,
+            "google": true,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "twitter": true,
+            "weibo": true,
+            "all": [
+                "douban", "facebook", "google", "instapaper", "linkedin", "twitter", "weibo",
+                "messenger", "qq", "qzone", "viber", "whatsapp"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy JaikenWong 2020",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "favicon": {
+            "shortcut": "images/logo.ico",
+            "bookmark": "images/logo.ico",
+            "appleTouch": "images/logo.png",
+            "appleTouchMore": {
+                "120x120": "images/logo.png",
+                "180x180": "images/logo.png"
+            }
+        },
+        "disqus": {
+            "shortName": "gitbookuse"
+        },
+        "chart": {
+            "type": "c3"
+        },
+        "anchor-navigation-ex": {
+            "isShowTocTitleIcon": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        },
+        "terminal": {
+            "copyButtons": true,
+            "fade": false,
+            "style": "flat"
+        }
+    }
+}
