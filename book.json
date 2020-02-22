@@ -3,34 +3,25 @@
     "author": "JaikenWong",
     "description": "相关技术书籍的读书笔记",
     "plugins": [
-        "-search",
-        "search-pro",
         "back-to-top-button",
         "expandable-chapters-small",
         "insert-logo",
         "code",
         "todo",
         "advanced-emoji",
-        "github",
         "emphasize",
         "splitter",
-        "-sharing",
-        "sharing-plus",
         "tbfed-pagefooter",
         "sectionx",
         "klipse",
         "alerts",
-        "pageview-count",
         "popup",
         "custom-favicon",
-        "plantuml",
-        "disqus",
         "katex",
+        "puml@^1.0.1",
         "graph",
         "chart",
-        "mermaid-gb3",
-        "anchor-navigation-ex",
-        "terminal"
+        "anchor-navigation-ex"
     ],
     "pluginsConfig": {
         "insert-logo": {
@@ -42,20 +33,6 @@
         },
         "github": {
             "url": "https://github.com/JiakenWong"
-        },
-        "sharing": {
-            "douban": true,
-            "facebook": false,
-            "google": true,
-            "pocket": false,
-            "qq": true,
-            "qzone": true,
-            "twitter": true,
-            "weibo": true,
-            "all": [
-                "douban", "facebook", "google", "instapaper", "linkedin", "twitter", "weibo",
-                "messenger", "qq", "qzone", "viber", "whatsapp"
-            ]
         },
         "tbfed-pagefooter": {
             "copyright": "Copyright &copy JaikenWong 2020",
@@ -70,9 +47,6 @@
                 "120x120": "images/logo.png",
                 "180x180": "images/logo.png"
             }
-        },
-        "disqus": {
-            "shortName": "gitbookuse"
         },
         "chart": {
             "type": "c3"
