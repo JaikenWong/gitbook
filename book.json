@@ -39,15 +39,7 @@
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
-        "favicon": {
-            "shortcut": "images/logo.ico",
-            "bookmark": "images/logo.ico",
-            "appleTouch": "images/logo.png",
-            "appleTouchMore": {
-                "120x120": "images/logo.png",
-                "180x180": "images/logo.png"
-            }
-        },
+        "favicon": "images/logo.ico",
         "chart": {
             "type": "c3"
         },
