@@ -3,7 +3,6 @@
     "author": "JaikenWong",
     "description": "相关技术书籍的读书笔记",
     "plugins": [
-        "back-to-top-button",
         "expandable-chapters-small",
         "insert-logo",
         "code",
