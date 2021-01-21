@@ -20,7 +20,8 @@
         "puml@^1.0.1",
         "graph",
         "chart",
-        "anchor-navigation-ex"
+        "anchor-navigation-ex",
+        "hide-element"
     ],
     "pluginsConfig": {
         "insert-logo": {
@@ -52,6 +53,11 @@
             "copyButtons": true,
             "fade": false,
             "style": "flat"
+        },
+        "hide-element": {
+            "elements": [
+                ".gitbook-link"
+            ]
         }
     },
     "resolutions": {
